@@ -1,5 +1,5 @@
 # auditSign 📝
-Smart Contracts that allow the signing of IPFS hashes, used to sign our audit reports. To ensure that people know what they are signing, the signature is presented to the user in cleartext, hence the verification is a bit different, but basically the same.
+The auditSign contracts are storing the signatures of audit reports, developed by [byterocket.dev](https://byterocket.dev). The IPFS hash is stored on-chain and signed by both parties, the auditors (us) and the client. This way, third parties and users may verify for themselves, that an audit report is legitimate.
 
 ## Deployed Instances
 We will deploy these contracts onto the Ethereum Mainnet as well as to the xDai chain and MATIC. If any of our clients wish to have these contracts on different networks, please let us know.
