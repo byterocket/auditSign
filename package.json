@@ -1,0 +1,23 @@
+{
+  "name": "auditsign",
+  "version": "0.1.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@openzeppelin/contracts-upgradeable": "^3.3.0",
+    "@openzeppelin/truffle-upgrades": "^1.3.1",
+    "@truffle/hdwallet-provider": "^1.2.1",
+    "prettier": "^2.2.1",
+    "prettier-plugin-solidity": "^1.0.0-beta.3",
+    "truffle-source-verify": "0.0.4"
+  }
+}
