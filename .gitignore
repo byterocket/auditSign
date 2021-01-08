@@ -1,0 +1,15 @@
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+## Truffle
+build
+node_modules
+.keys
+
+.openzeppelin/unknown-*
+.openzeppelin/dev-*
