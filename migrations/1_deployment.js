@@ -9,7 +9,7 @@ const byterocketeth = "0xee680e5c2C5251261061F12BA3a5c470D2B6AE83";
 const safebyterocketeth = "0xb9Edd24591De55dB94A0e7fB2939D8F2eF49bf3E";
 // Mainnet address of the auditSign contract (as soon as it is deployed)
 // Can also be found via audits.byterocket.eth
-const mainnetAddress = "0x0000000000000000000000000000000000000000";
+const mainnetAddress = "0x57780C736996F4d56497B5c57eb55C81c331aA73";
 
 const ifpsBase = "https://gateway.pinata.cloud/ipfs/";
 

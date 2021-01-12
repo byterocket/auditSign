@@ -1,0 +1,130 @@
+{
+  "manifestVersion": "3.1",
+  "impls": {
+    "f5a7512ca4bdce64fdb616d9f2ff12b67c337ed12c296e2cc6cbe3ae007605a9": {
+      "address": "0x34f1ab7FbdD7A4E22AF79F7871E2201D2f8Bd7FD",
+      "txHash": "0x132a41fc23ca5d265139982608cde911b9a34cf3542d9af872758505a593b351",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "_initialized",
+            "type": "t_bool",
+            "src": "../@openzeppelin/contracts-upgradeable/proxy/Initializable.sol:24"
+          },
+          {
+            "contract": "Initializable",
+            "label": "_initializing",
+            "type": "t_bool",
+            "src": "../@openzeppelin/contracts-upgradeable/proxy/Initializable.sol:29"
+          },
+          {
+            "contract": "ContextUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/GSN/ContextUpgradeable.sol:31"
+          },
+          {
+            "contract": "OwnableUpgradeable",
+            "label": "_owner",
+            "type": "t_address",
+            "src": "../@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:20"
+          },
+          {
+            "contract": "OwnableUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)49_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:74"
+          },
+          {
+            "contract": "auditSignMirror",
+            "label": "mainnetContract",
+            "type": "t_address",
+            "src": "auditSignMirror.sol:51"
+          },
+          {
+            "contract": "auditSignMirror",
+            "label": "ipfsBase",
+            "type": "t_string_storage",
+            "src": "auditSignMirror.sol:54"
+          },
+          {
+            "contract": "auditSignMirror",
+            "label": "audits",
+            "type": "t_array(t_struct(Audit)723_storage)dyn_storage",
+            "src": "auditSignMirror.sol:57"
+          },
+          {
+            "contract": "auditSignMirror",
+            "label": "indexOfAudit",
+            "type": "t_mapping(t_string_memory_ptr,t_uint256)",
+            "src": "auditSignMirror.sol:59"
+          },
+          {
+            "contract": "auditSignMirror",
+            "label": "auditExists",
+            "type": "t_mapping(t_string_memory_ptr,t_bool)",
+            "src": "auditSignMirror.sol:61"
+          },
+          {
+            "contract": "auditSignMirror",
+            "label": "signatures",
+            "type": "t_mapping(t_string_memory_ptr,t_array(t_struct(Signature)716_storage)dyn_storage)",
+            "src": "auditSignMirror.sol:65"
+          },
+          {
+            "contract": "auditSignMirror",
+            "label": "hasSignedAuditReport",
+            "type": "t_mapping(t_string_memory_ptr,t_mapping(t_address,t_bool))",
+            "src": "auditSignMirror.sol:67"
+          },
+          {
+            "contract": "auditSignMirror",
+            "label": "hasSigningRights",
+            "type": "t_mapping(t_address,t_bool)",
+            "src": "auditSignMirror.sol:71"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address"
+          },
+          "t_string_storage": {
+            "label": "string"
+          },
+          "t_array(t_struct(Audit)723_storage)dyn_storage": {
+            "label": "struct auditSignMirror.Audit[]"
+          },
+          "t_mapping(t_string_memory_ptr,t_uint256)": {
+            "label": "mapping(string => uint256)"
+          },
+          "t_mapping(t_string_memory_ptr,t_bool)": {
+            "label": "mapping(string => bool)"
+          },
+          "t_mapping(t_string_memory_ptr,t_array(t_struct(Signature)716_storage)dyn_storage)": {
+            "label": "mapping(string => struct auditSignMirror.Signature[])"
+          },
+          "t_mapping(t_string_memory_ptr,t_mapping(t_address,t_bool))": {
+            "label": "mapping(string => mapping(address => bool))"
+          },
+          "t_mapping(t_address,t_bool)": {
+            "label": "mapping(address => bool)"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]"
+          },
+          "t_bool": {
+            "label": "bool"
+          }
+        }
+      }
+    }
+  },
+  "admin": {
+    "address": "0x80E8D6A5c723cc3f14C00F186310B263CF0CCD42",
+    "txHash": "0x2a363c0e812c5f45ce44436d8811e72dc6db6eb96e66a88b5d0aa3d634c5494f"
+  }
+}
