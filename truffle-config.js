@@ -20,9 +20,10 @@ module.exports = {
       skipDryRun: true,
     },
     xdai: {
-      provider: () => new HDWalletProvider(process.env.PRIVATE_KEY, "https://rpc.xdaichain.com/"),
+      provider: () => new HDWalletProvider(process.env.PRIVATE_KEY, "https://xdai-archive.blockscout.com/"),
       gasPrice: 1*1000000000,
       network_id: 100,
+      skipDryRun: true,
     },
     matic: {
       provider: () => new HDWalletProvider(process.env.PRIVATE_KEY, "https://rpc-mainnet.matic.network"),
@@ -30,9 +31,11 @@ module.exports = {
       network_id: 137,
     },
     mainnet: {
-      provider: () => new HDWalletProvider(process.env.PRIVATE_KEY, "https://infura.io/v3/" + process.env.INFURA_KEY),
-      gasPrice: 1*1000000000,
-      network_id: 4,
+      provider: () => new HDWalletProvider(process.env.PRIVATE_KEY, "https://mainnet.infura.io/v3/" + process.env.INFURA_KEY),
+      gasPrice: 51*1000000000, // 50 gwei
+      network_id: 1,
+      timeoutBlocks: 100,
+      skipDryRun: true,
     },
   },
 
@@ -41,7 +44,7 @@ module.exports = {
       version: "0.6.12",
       settings: {
         optimizer: {
-          enabled: false,
+          enabled: true,
           runs: 200
         },
       }
